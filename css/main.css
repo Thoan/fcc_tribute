@@ -1,0 +1,46 @@
+/* ----------------------------------------
+ * - NAV
+ */
+#tribute-nav ul {
+  background-color: #fff;
+}
+#tribute-nav ul li {
+  display: inline-block;
+}
+#tribute-nav ul li a {
+  color: #eb4141;
+}
+#tribute-nav ul li.active {
+  border-top: 3px solid #eb4141;
+}
+/*#tribute-nav ul li.active a {
+  color: #fff;
+}*/
+
+/* ----------------------------------------
+ * - CONTENT
+ */
+#content {
+  /*margin-top: 15px;*/
+  /*margin-bottom: 400px;*/
+  position: relative;
+}
+.tribute-offset-y {
+  margin-top: -15px;
+  padding-top: 15px;
+}
+
+/* ----------------------------------------
+ * - IMG
+ */
+.tribute-img {
+  margin-bottom: 15px;
+}
+
+/* ----------------------------------------
+ * - FOOTER
+ */
+#footer {
+  min-height: 400px;
+  background-color: #eb4141;
+}

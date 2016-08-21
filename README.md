@@ -1,1 +1,1 @@
-# fcc_tribut
+# fcc_tribute
