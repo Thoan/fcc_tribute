@@ -1,4 +1,28 @@
 /* ----------------------------------------
+ * - BODY
+ */
+body {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url(../resources/gandhi.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #ed4e37;
+  color: #fff;
+}
+
+/* ----------------------------------------
+ * - HEADER
+ */
+.title {
+  margin: 90px 0 120px 0;
+  color: #fff;
+  font-size: 6em;
+}
+
+/* ----------------------------------------
  * - NAV
  */
 #tribute-nav ul {
@@ -8,10 +32,10 @@
   display: inline-block;
 }
 #tribute-nav ul li a {
-  color: #eb4141;
+  color: #ed4e37;
 }
 #tribute-nav ul li.active {
-  border-top: 3px solid #eb4141;
+  border-top: 3px solid #ed4e37;
 }
 /*#tribute-nav ul li.active a {
   color: #fff;
@@ -20,6 +44,16 @@
 /* ----------------------------------------
  * - CONTENT
  */
+.tribute-divider {
+  margin: 24px auto;
+  width: 30%;
+  border-top: 3px solid #fff;
+}
+p {
+  /*margin-bottom: 24px;*/
+  /*background-color: rgba(255,255,255,.55);*/
+  padding: 15px;
+}
 #content {
   /*margin-top: 15px;*/
   /*margin-bottom: 400px;*/
@@ -41,6 +75,19 @@
  * - FOOTER
  */
 #footer {
-  min-height: 400px;
-  background-color: #eb4141;
+  min-height: 300px;
+  background-color: #ed4e37;
+}
+#footer h1 {
+  vertical-align: middle;
+  line-height: 280px;
+}
+#footer a {
+  text-decoration: none;
+  color: #fff;
+}
+#footer .tribute-notes {
+  margin-bottom: 42px;
+  margin-top: -15px;
+  color: rgba(255, 255, 255, 0.25);;
 }
